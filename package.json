@@ -1,0 +1,29 @@
+{
+  "name": "tvfsvuemongo",
+  "version": "1.0.0",
+  "description": "full stack vue and express app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamberttimothyedward/tvfsvuemongo.git"
+  },
+  "author": "Tim Lambwert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamberttimothyedward/tvfsvuemongo/issues"
+  },
+  "homepage": "https://github.com/lamberttimothyedward/tvfsvuemongo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
